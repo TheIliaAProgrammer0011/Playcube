@@ -1,0 +1,12 @@
+.more-page {
+    background: radial-gradient(ellipse at 88% 10%, #e7e9df 0, transparent 38%);
+}
+
+.more-page .content-tile {
+    color: inherit;
+    text-decoration: none;
+}
+
+.more-page .content-tile:hover {
+    border-color: #a8b7a5;
+}

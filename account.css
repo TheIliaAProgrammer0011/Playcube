@@ -1,0 +1,51 @@
+.account-page {
+    align-items: flex-start;
+    background: radial-gradient(ellipse at 88% 12%, #e5ecdf 0, transparent 38%);
+}
+
+.signup-form {
+    display: flex;
+    width: min(100%, 470px);
+    flex-direction: column;
+    gap: 14px;
+    margin-top: 10px;
+}
+
+.signup-form label {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    color: #4b5249;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.signup-form input {
+    width: 100%;
+    min-height: 44px;
+    padding: 0 12px;
+    border: 1px solid #d9ded5;
+    border-radius: 6px;
+    background: #fff;
+    color: #20231f;
+    font: inherit;
+    font-weight: 400;
+}
+
+.signup-form input:focus {
+    border-color: #59745c;
+    outline: 2px solid #dce8dc;
+}
+
+.signup-form button {
+    min-height: 46px;
+    align-self: flex-start;
+    padding: 0 22px;
+    border: 0;
+    border-radius: 6px;
+    background: #283d2d;
+    color: #fff;
+    cursor: pointer;
+    font: inherit;
+    font-weight: 600;
+}

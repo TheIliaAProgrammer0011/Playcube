@@ -1,0 +1,7 @@
+.home-page {
+    background: radial-gradient(ellipse at 82% 18%, #e5ecdf 0, transparent 38%);
+}
+
+.home-page h1 span {
+    color: #47764d;
+}
